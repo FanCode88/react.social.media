@@ -1,0 +1,94 @@
+@import "../../style.scss";
+
+.navbar {
+  @include themify($themes) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 50px;
+    border-bottom: 1px solid themed("border");
+    position: sticky;
+    top: 0;
+    background-color: themed("bg");
+    color: themed("textColor");
+    z-index: 100;
+
+    @include mobile {
+      justify-content: space-around;
+    }
+    @include tablet {
+      justify-content: space-around;
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      cursor: pointer;
+    }
+
+    span {
+      font-weight: 700;
+      font-size: 16px;
+      color: themed("logo");
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid themed("border");
+      border-radius: 6px;
+      padding: 5px;
+      font-size: 22px;
+      cursor: pointer;
+
+      input {
+        width: 500px;
+        border: none;
+        padding: 5px 5px;
+        outline: none;
+        font-size: 14px;
+        background: transparent;
+        color: themed("textColor");
+
+        @include mobile {
+          display: none;
+        }
+        @include tablet {
+          width: 200px;
+        }
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      cursor: pointer;
+
+      @include mobile {
+        display: none;
+      }
+
+      .user {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+
+        @include tablet {
+          display: none;
+        }
+
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
