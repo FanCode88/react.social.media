@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react.social.media/static/css/main.481ddb3b.css",
+    "main.js": "/react.social.media/static/js/main.0ee58b0e.js",
+    "static/media/john-schnobrich-2FPjlAyMQTA-unsplash.jpg": "/react.social.media/static/media/john-schnobrich-2FPjlAyMQTA-unsplash.4e724ba270e0a4c36ab1.jpg",
+    "static/media/christin-hume-Hcfwew744z4-unsplash.jpg": "/react.social.media/static/media/christin-hume-Hcfwew744z4-unsplash.16ff2bc360d4b2695a67.jpg",
+    "static/media/mitchell-luo-ymo_yC_N_2o-unsplash.jpg": "/react.social.media/static/media/mitchell-luo-ymo_yC_N_2o-unsplash.f78a0e9a79f143581e7c.jpg",
+    "static/media/img.jpg": "/react.social.media/static/media/img.a3804b1a2ae52fa4f9e9.jpg",
+    "static/media/friend.jpg": "/react.social.media/static/media/friend.b8e4f9e1be73b8e4e2b4.jpg",
+    "static/media/aiony-haust-3TLl_97HNJo-unsplash.jpg": "/react.social.media/static/media/aiony-haust-3TLl_97HNJo-unsplash.500a78634a96c40405ef.jpg",
+    "static/media/map.jpg": "/react.social.media/static/media/map.b9b600882c18f21bfc46.jpg",
+    "index.html": "/react.social.media/index.html",
+    "main.481ddb3b.css.map": "/react.social.media/static/css/main.481ddb3b.css.map",
+    "main.0ee58b0e.js.map": "/react.social.media/static/js/main.0ee58b0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.481ddb3b.css",
+    "static/js/main.0ee58b0e.js"
+  ]
+}
